@@ -18,23 +18,6 @@ The system consists of 5 main tables:
 - `Seats` — Seat availability per event
 - `BoxOffices` — Ticket sales counters
 
-## Project Structure
-'''text
-sports-ticketing/
-├── sql/
-│   ├── 01_create_tables.sql       # Database and table creation
-│   ├── 02_sample_data.sql         # Sample data insertion
-│   ├── 03_indexes.sql             # Performance indexes
-│   ├── 04_views.sql               # Revenue and availability views
-│   ├── 05_stored_procedures.sql   # Booking and reporting procedures
-│   ├── 06_functions.sql           # User-defined functions
-│   ├── 07_triggers.sql            # Seat status automation
-│   └── 08_security.sql            # User roles and access control
-├── python/
-│   └── main.py                    # Console application
-└── README.md
-'''
-
 ## Features
 - Event scheduling and match information management
 - Seat booking with real-time availability tracking
