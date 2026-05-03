@@ -19,6 +19,7 @@ The system consists of 5 main tables:
 - `BoxOffices` — Ticket sales counters
 
 ## Project Structure
+'''text
 sports-ticketing/
 ├── sql/
 │   ├── 01_create_tables.sql       # Database and table creation
@@ -32,6 +33,7 @@ sports-ticketing/
 ├── python/
 │   └── main.py                    # Console application
 └── README.md
+'''
 
 ## Features
 - Event scheduling and match information management
